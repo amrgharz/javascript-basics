@@ -1,3 +1,3 @@
 console.log("  ")
-var name = "amr";
+var name = "this is me Amr";
 alert(name);
