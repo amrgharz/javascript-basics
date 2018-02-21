@@ -1,12 +1,3 @@
-console.log(" ")
-var img =document.getElementById("image1")
-img.addEventListener('onmouseover' , function (){
-    
+var img = document.querySelector("#image1").addEventListener('mouseover' ,function (){
+    this.src="images/image1_2.jpg"
 })
-
-
-
-
-
-// I applied this on the html and it is working 
-//onmouseover="src='images/image1_2.jpg'" onmouseout="src='images/image1.jpg'"
