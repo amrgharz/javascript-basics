@@ -5,7 +5,7 @@ const hide = document.getElementById("hide")
 
 function onClick(evt){
     console.log(evt.target)
-    if(hide!== true){
+    if(evt.target === show){
         text.style.display = "block"
     }else{
         text.style.display = 'none';
