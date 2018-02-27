@@ -34,7 +34,7 @@ var countSpaces = function (text) {
     return text.split(' ').length - 1;;
 }
 var InverseString = function (text) {
-    return text.split('').reverse().join('');
+    return text.split('').reverse.join('');
 }
 
 var power = function (x, y) {
